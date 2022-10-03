@@ -1,0 +1,262 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    color: #fff;
+    background-color: #ff4c68;
+
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+   
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.navbar {
+    margin-bottom: 4.5rem;
+}
+
+.nav-item {
+    margin: 0px 18px;
+
+}
+
+.nav-link {
+    font-size: "Montserrat";
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+/* Download Buttons */
+
+.download-buttons {
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+
+/* Title Image of dog in iphone */
+
+.title-image-dog-in-iphone {
+    width: 20%;
+    transform: rotate(25deg);
+    margin-left: 7%;
+    position: absolute;
+}
+
+
+
+/* Features */
+
+#features {
+    background-color: white;
+    position: relative;
+    padding-top: 1%;
+}
+
+.features-div-my {
+    margin: 6% 0% 0% 0%;
+    text-align: center;
+
+}
+
+.h3-text {
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.features-p-text {
+    color: #8f8f8f;
+    padding: 0px 40px;
+}
+
+.img-in-features {
+    color: #ef8172;
+    font-size: 4rem;
+}
+
+.img-in-features:hover {
+    color: #ff4c68;
+}
+
+.col-lg-4 {
+    margin-bottom: 7%;
+}
+
+
+/* Testimonials section */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15% 6% 15%;
+}
+
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.class-logo {
+    width: 15%;
+    margin: 1% 4%;
+}
+
+
+
+/* Pricing section */
+
+
+.button-my {
+    width: 97%;
+}
+
+#pricing {
+    padding: 7% 5% 3% 5%;
+    text-align: center;
+    
+}
+
+.pricing-top-para-my {
+    margin-bottom: 10%;
+}
+
+.card {
+    width: 90%;
+    margin: 0% auto 0% auto;
+
+}
+
+.button-chihuaha-my {
+    margin-top: 40px;
+}
+
+.button-labra-my {
+    margin-top: 40px;
+}
+
+
+/* using media query */
+
+@media (max-width : 1038px) {
+    .title-image-dog-in-iphone {
+
+        transform: rotate(0deg);
+        width: 80%;
+        position: static;
+        margin-left: 19%;
+    }
+
+    #title {
+        text-align: center;
+
+    }
+}
+
+@media (max-width : 990.4px) {
+    .title-image-dog-in-iphone {
+
+        transform: rotate(0deg);
+        width: 50%;
+        position: static;
+        margin-top: 8%;
+        margin-left: 0%;
+    }
+
+    #title {
+        text-align: center;
+
+    }
+}
+
+
+/* call to action section */
+
+#cta
+{
+    text-align: center;
+    padding: 6% 0% 7% 0%;
+    background-color: #ff4c68;
+}
+
+.cta-h3-my
+{
+    font-weight: 700;
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 0% 15%;
+    line-height: 5rem;
+}
+
+.button1-cta-my
+{
+    font-size: 1.2rem;
+    margin: 3.5% 1% 0% 0%;
+}
+
+.button2-cta-my
+{
+    font-size: 1.2rem;
+    margin: 3.5% 0% 0% 1%;
+}
+
+
+/* Footer section */
+
+#footer
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 0% 3% 0%;
+}
+
+.footer-fa-my
+{
+    margin: 0% 0.5% 2% 0.5%;
+}
